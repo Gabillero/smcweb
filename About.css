@@ -1,0 +1,31 @@
+ .u-section-1 {
+  background-image: url("images/122408880_110630204165531_2601819427288409179_n.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 646px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 533px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 408px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 306px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 193px;
+  }
+}
