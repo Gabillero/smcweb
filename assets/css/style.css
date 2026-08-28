@@ -16,3 +16,20 @@ footer{background:#1b1b1b;color:#fff;padding:28px 0}.foot{display:grid;grid-temp
 /* Full menu page */
 .menu-hero{padding:64px 0 42px;background:linear-gradient(110deg,#143d20,#168a24);color:#fff;text-align:center}.menu-hero h1{font-family:'Comic Sans MS','Segoe Print',cursive;font-size:clamp(2.8rem,7vw,5rem);margin:0 0 10px}.menu-hero p{max-width:720px;margin:auto;font-size:1.05rem}.menu-nav{background:#fff;position:sticky;top:84px;z-index:30;border-bottom:1px solid var(--line)}.menu-nav .wrap{display:flex;gap:8px;overflow:auto;padding:12px 0}.menu-nav a{white-space:nowrap;border:1px solid var(--line);padding:9px 13px;border-radius:999px;font-weight:800;background:#fff}.menu-nav a:hover{background:var(--green);color:#fff}.menu-section{padding:50px 0}.menu-section:nth-of-type(even){background:rgba(255,255,255,.55)}.menu-section h2{font-family:'Comic Sans MS','Segoe Print',cursive;color:var(--green);font-size:2.25rem;margin:0 0 8px}.menu-section .section-note{color:var(--muted);margin-bottom:20px}.menu-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 20px}.menu-item{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 15px;box-shadow:0 4px 14px rgba(0,0,0,.04)}.menu-item .line{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.menu-item h3{font-size:1rem;margin:0}.menu-item .cost{font-weight:950;color:var(--orange);white-space:nowrap}.menu-item p{font-size:.88rem;color:#625f58;margin:5px 0 0}.menu-banner{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}.menu-banner img{height:280px}.menu-banner .copy{padding:24px}.menu-banner h2{margin-top:0}.price-table{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px}.price-table .price-row{padding:8px 0}.menu-cta{background:#191919;color:#fff;padding:38px 0;text-align:center}.menu-cta h2{color:#fff}.form-note{grid-column:1/-1;font-size:.78rem;color:#777;margin:0}.cat{cursor:pointer}
 @media(max-width:700px){.menu-list{grid-template-columns:1fr}.menu-banner{grid-template-columns:1fr}.menu-banner img{height:220px}.menu-nav{top:76px}}
+
+/* Web3Forms contact & catering quote form */
+.form{align-content:start}
+.form-field{display:flex;flex-direction:column;gap:6px}
+.form-field label{font-size:.82rem;font-weight:850;color:#403c35}
+.form select{width:100%;padding:12px;border:1px solid #cfc5b4;border-radius:5px;background:#fff;font:inherit;color:var(--ink)}
+.form .full{grid-column:1/-1}
+.form .full textarea{grid-column:auto}
+.catering-field{display:none}
+.catering-field.show{display:flex}
+.hidden-botcheck{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.form button:disabled{opacity:.65;cursor:wait}
+.form-note{grid-column:1/-1;font-size:.82rem;color:#777;margin:2px 0 0}
+.form-note.sending{color:#6a5a31}
+.form-note.success{color:#137426;font-weight:800}
+.form-note.error{color:#b3261e;font-weight:800}
+@media(max-width:700px){.form .full{grid-column:1}.form-field{grid-column:1}}
