@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stratfordmarketcenter.com/sitemap.xml
